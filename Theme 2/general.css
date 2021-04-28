@@ -1,0 +1,418 @@
+/* Theme 1 */
+/* :root {
+  --main-color: #eaaa00;
+  --secondary-color: #ffffff;
+  --third-color: #003057;
+
+  --main-color-light: #eaaa00cc;
+  --secondary-color-light: #ffffffcc;
+  --third-color-light: #003057cc;
+
+  --menu-focus: #eaaa0040;
+  --menu-unselected: rgba(234, 170, 0, 0.502);
+
+  --button-color: #ffffff;
+  --button-text-color: #003057;
+  --button-color2: #eaaa00;
+  --button-text-color2: #ffffff;
+  --button-color3: #003057;
+  --button-text-color3: #ffffff;
+
+  --button-hover-color: #003057;
+  --button-hover-text: #ffffff;
+  --button-hover-color2: #ffffff;
+  --button-hover-text2: #eaaa00;
+
+  --link-color: #eaaa00;
+
+  --teacher-notes-color: #004f9f;
+  --secondary-text-color: #eaaa00;
+
+  --background-color: #003057;
+} */
+
+/* Theme 2 */
+:root {
+  --main-color: #003057;
+  --secondary-color: #eaaa00;
+  --third-color: #ffffff;
+
+  --main-color-light: #eaaa00cc;
+  --secondary-color-light: #ffffffcc;
+  --third-color-light: #003057cc;
+
+  --menu-focus: #00305740;
+  --menu-unselected: #00305780;
+
+  --button-color: #eaaa00;
+  --button-text-color: #ffffff;
+  --button-color2: #ffffff;
+  --button-text-color2: #003057;
+  --button-color3: #003057;
+  --button-text-color3: #ffffff;
+
+  --button-hover-color: #003057;
+  --button-hover-text: #ffffff;
+  --button-hover-color2: #eaaa00;
+  --button-hover-text2: #ffffff;
+  --button-hover-color3: #003057;
+  --button-hover-text3: #ffffff;
+
+  --link-color: #004f9f;
+
+  --teacher-notes-color: #ffffff;
+  --secondary-text-color: #003057;
+
+  --background-color: #003057;
+}
+
+/* Theme 3 */
+/* :root {
+  --main-color: #eaaa00;
+  --secondary-color: #003057;
+  --third-color: #ffffff;
+
+  --main-color-light: #eaaa00cc;
+  --secondary-color-light: #003057cc;
+  --third-color-light: #ffffffcc;
+
+  --menu-focus: #eaaa0040;
+  --menu-unselected: #eaaa0080;
+
+  --button-color: #eaaa00;
+  --button-text-color: #003057;
+  --button-color2: #eaaa00;
+  --button-text-color2: #ffffff;
+  --button-color3: #ffffff;
+  --button-text-color3: #003057;
+
+  --button-hover-color: #003057;
+  --button-hover-text: #ffffff;
+  --button-hover-color2: #003057;
+  --button-hover-text2: #ffffff;
+  --button-hover-color3: #003057;
+  --button-hover-text3: #ffffff;
+
+  --link-color: #eaaa00;
+
+  --teacher-notes-color: #ffffff;
+  --secondary-text-color: #003057;
+
+  --background-color: #ffffff;
+} */
+
+/* Header */
+
+header {
+  margin-bottom: 20px;
+}
+.course-section {
+  padding: 0.25rem;
+  margin: 0.5rem;
+  font-weight: 700;
+  color: var(--menu-unselected);
+  background-color: transparent;
+  border-bottom: 0.25rem solid transparent;
+}
+
+.course-section:hover,
+.course-section:focus {
+  color: var(--menu-focus);
+  border-bottom-color: var(--menu-focus);
+}
+
+.course-section.active {
+  color: var(--main-color);
+  border-bottom-color: var(--main-color);
+}
+
+.navbar-brand {
+  color: var(--main-color);
+}
+
+@media (min-width: 48em) {
+  .course-name {
+    float: left;
+  }
+  .course-section-all {
+    float: right;
+  }
+}
+
+/* Body */
+
+a {
+  color: var(--link-color);
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-top: 30px; /* Margin top for extra space */
+  margin-bottom: 60px; /* Margin bottom by footer height */
+  background-color: var(--secondary-color);
+  color: var(--third-color);
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.about-block {
+  background-color: var(--main-color);
+}
+
+.accordion {
+  min-width: 100%;
+}
+
+.bg-square {
+  background-color: var(--third-color);
+  color: var(--main-color);
+}
+
+.btn-link-theme {
+  color: var(--main-color);
+  font-size: 20px;
+}
+.btn-link-theme:hover {
+  color: var(--third-color);
+}
+
+.card-btn {
+  margin-bottom: 16px;
+}
+
+.card-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-title,
+.card-text {
+  text-align: start;
+  color: var(--secondary-color);
+}
+
+.card-update {
+  text-align: start;
+  color: var(--main-color);
+  opacity: 0.6;
+}
+
+.centered-section {
+  max-width: 72em;
+}
+
+.content-cards {
+  color: var(--main-color);
+}
+
+.course-name {
+  font-size: 1.5rem;
+}
+
+.description {
+  max-width: 42em;
+}
+
+.duration-time {
+  text-align: end;
+  margin-bottom: 0px;
+  margin-right: 16px;
+}
+
+.faqs {
+  max-width: 72em;
+}
+
+.faq-card {
+  border: none;
+}
+
+.faq-body {
+  background-color: var(--secondary-color);
+  color: var(--third-color);
+  border-bottom: none;
+}
+
+.faq-header {
+  background-color: var(--secondary-color);
+  border-bottom: none;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px; /* Set the fixed height of the footer here */
+  line-height: 60px; /* Vertically center the text there */
+  text-align: center;
+}
+
+.full-image {
+  width: 100%;
+}
+
+.full-table {
+  width: 100%;
+}
+
+.image-card {
+  max-width: 840px;
+  border: 0px;
+  background-color: var(--background-color);
+}
+
+.people-row {
+  margin-bottom: 48px;
+}
+
+.person-name {
+  color: var(--main-color);
+}
+
+.scrollable-list {
+  max-height: 415px;
+  margin-bottom: 10px;
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+.section-title {
+  padding-bottom: 24px;
+  padding-left: 15px;
+  text-align: center;
+  color: var(--main-color);
+}
+
+.table {
+  color: var(--third-color);
+}
+
+.table-striped > thead {
+  background-color: var(--third-color-light);
+  color: var(--secondary-color);
+}
+
+.table-striped > tbody > tr:nth-child(2n + 1) > td,
+.table-striped > tbody > tr:nth-child(2n + 1) > th {
+  background-color: var(--main-color-light);
+}
+
+.table-striped > tbody > tr:nth-child(2n + 2) > td,
+.table-striped > tbody > tr:nth-child(2n + 2) > th {
+  background-color: var(--secondary-color-light);
+}
+
+.teacher-notes {
+  text-align: start;
+  margin-top: 16px;
+  color: var(--teacher-notes-color);
+}
+
+.team-picture {
+  height: 140px;
+  width: 140px;
+}
+
+.theme-btn {
+  background-color: var(--button-color);
+  border-color: var(--button-color);
+  color: var(--button-text-color);
+}
+
+.theme-btn2 {
+  background-color: var(--button-color2);
+  border-color: var(--button-color2);
+  color: var(--button-text-color2);
+}
+
+.theme-btn3 {
+  background-color: var(--button-color3);
+  border-color: var(--button-color3);
+  color: var(--button-text-color3);
+}
+
+.theme-btn:hover {
+  background-color: var(--button-hover-color);
+  border-color: var(--button-hover-color);
+  color: var(--button-hover-text);
+}
+
+.theme-btn2:hover {
+  background-color: var(--button-hover-color2);
+  border-color: var(--button-hover-color2);
+  color: var(--button-hover-text2);
+}
+
+.theme-btn3:hover {
+  background-color: var(--button-hover-color3);
+  border-color: var(--button-hover-color3);
+  color: var(--button-hover-text3);
+}
+
+.title-block {
+  width: 100%;
+  background-color: var(--main-color);
+}
+
+.title-block2 {
+  width: 100%;
+  background-color: var(--third-color);
+  color: var(--secondary-color);
+}
+
+.title-image {
+  width: 100%;
+  background-size: cover;
+  color: var(--third-color);
+}
+
+.video-list-element {
+  padding-top: 24px;
+  padding-bottom: 16px;
+  color: var(--button-text-color3);
+  background-color: var(--button-color3);
+}
+
+.video-list-element:hover {
+  padding-top: 24px;
+  padding-bottom: 16px;
+  color: var(--button-hover-text2);
+  background-color: var(--button-hover-color2);
+}
+
+.video-list-element.list-group-item.active {
+  color: var(--button-text-color2);
+  background-color: var(--button-color2);
+  border-color: var(--button-color2);
+}
+
+@media (max-width: 48em) {
+  body {
+    padding: 16px;
+  }
+
+  .card-col {
+    max-height: 250px;
+  }
+}
+
+@media (min-width: 48em) {
+  .section-title {
+    text-align: start;
+  }
+
+  .video-list-element {
+    text-align: start;
+    padding-left: 10%;
+  }
+}

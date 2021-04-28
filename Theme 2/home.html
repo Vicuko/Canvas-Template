@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <base target="_PARENT" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Víctor C. Fernández" />
+    <title>Home</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="general.css" />
+  </head>
+
+  <body class="text-center">
+    <header>
+      <nav class="navbar navbar-expand-lg justify-content-center">
+        <div class="container justify-content-center">
+          <div class="col-sm-4">
+            <!-- Course name -->
+            <span class="navbar-brand mb-0 h1 course-name"
+              >My Online Course</span
+            >
+            <!-- End of course name -->
+          </div>
+          <!-- Top right menu -->
+          <div class="col-sm-8">
+            <ul class="nav course-section-all justify-content-center">
+              <!-- Menu element -->
+              <li class="nav-item">
+                <a
+                  class="nav-link course-section active"
+                  id="description-tab"
+                  data-toggle="tab"
+                  href="#description"
+                  role="tab"
+                  aria-controls="description"
+                  aria-selected="true"
+                  >Course description</a
+                >
+              </li>
+              <!-- End of menu element -->
+              <!-- Menu element -->
+              <li class="nav-item">
+                <a
+                  class="nav-link course-section"
+                  id="content-tab"
+                  data-toggle="tab"
+                  href="#content"
+                  role="tab"
+                  aria-controls="content"
+                  aria-selected="false"
+                  >Content</a
+                >
+              </li>
+              <!-- End of menu element -->
+              <!-- Menu element -->
+              <li class="nav-item">
+                <a
+                  class="nav-link course-section"
+                  id="team-tab"
+                  data-toggle="tab"
+                  href="#team"
+                  role="tab"
+                  aria-controls="team"
+                  aria-selected="false"
+                  >Team</a
+                >
+              </li>
+              <!-- End of menu element -->
+              <!-- Menu element -->
+              <li class="nav-item">
+                <a
+                  class="nav-link course-section"
+                  id="faq-tab"
+                  data-toggle="tab"
+                  href="#faqs"
+                  role="tab"
+                  aria-controls="faq"
+                  aria-selected="false"
+                  >FAQs</a
+                >
+              </li>
+              <!-- End of menu element -->
+            </ul>
+          </div>
+          <!-- End of top right menu -->
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Menu elements content -->
+      <div class="tab-content" id="course-tabs">
+        <!-- Option content -->
+        <div
+          class="tab-pane fade show active mx-auto description justify-content-center"
+          id="description"
+          role="tabpanel"
+          aria-labelledby="description-tab"
+        >
+          <!-- Header -->
+          <h1 class="cover-heading">Welcome to My Online Course</h1>
+          <!-- End of header -->
+          <!-- Text -->
+          <p class="lead">
+            Here you will learn the magic behind building your own online course
+            using this template. Feel free to click on the button below and dive
+            into the journey ahead.
+          </p>
+          <!-- End of text -->
+          <!-- Get started button -->
+          <p class="lead">
+            <a
+              href="https://gatech.instructure.com/courses/218372/modules/items/1598638"
+              class="btn btn-lg theme-btn2 btn-secondary"
+              >Get Started</a
+            >
+          </p>
+          <!-- End of get started button -->
+        </div>
+        <!-- End of option content -->
+
+        <!-- Option content -->
+        <div
+          class="tab-pane fade content-cards"
+          id="content"
+          role="tabpanel"
+          aria-labelledby="content-tab"
+        >
+          <!-- Start of card-->
+          <div class="card image-card mb-3 mx-auto">
+            <div class="row no-gutters">
+              <div class="col-md-5 card-col">
+                <!-- Card image-->
+                <img
+                  class="card-img"
+                  src="../images/Places/201804-S7II-Houston_042.JPG"
+                  alt="Introduction"
+                />
+                <!-- End of card image-->
+              </div>
+              <div class="col-md-7">
+                <div class="card-body">
+                  <!-- Card header -->
+                  <h4 class="card-title">Introduction to the template</h4>
+                  <!-- End of card header -->
+                  <!-- Card text -->
+                  <p class="card-text">
+                    In this section you may take a look at a
+                    <b><u>video lecture</u></b>
+                    composed of several videos where students can through each
+                    of them without having to switch to a different environment.
+                  </p>
+                  <!-- End of card text -->
+                  <!-- Card updated text -->
+                  <p class="card-update">
+                    <small>Last updated 3 mins ago</small>
+                  </p>
+                  <!-- End of card updated text -->
+                  <!-- Card content button -->
+                  <p>
+                    <a
+                      class="btn card-btn float-right theme-btn2"
+                      href="https://gatech.instructure.com/courses/218372/modules/items/1598638"
+                      role="button"
+                      >View Content</a
+                    >
+                  </p>
+                  <!-- End of card content button -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End of card-->
+
+          <!-- Start of card-->
+          <div class="card image-card mb-3 mx-auto">
+            <div class="row no-gutters">
+              <div class="col-md-5 order-md-2 card-col">
+                <!-- Card image-->
+                <img
+                  class="card-img"
+                  src="../images/Places/201804-S7II-Grand Canyon_0117.JPG"
+                  alt="Yellow Brick Road"
+                />
+                <!-- End of card image-->
+              </div>
+              <div class="col-md-7 order-md-1">
+                <div class="card-body">
+                  <!-- Card header -->
+                  <h4 class="card-title">Follow the Yellow Brick Road</h4>
+                  <!-- End of card header -->
+                  <!-- Card text -->
+                  <p class="card-text">
+                    Help students settle their knowledge by creating a
+                    <b><u>project</u></b>
+                    that will help them put into practice all they have learned.
+                  </p>
+                  <!-- End of card text -->
+                  <!-- Card updated text -->
+                  <p class="card-update">
+                    <small>Last updated 3 mins ago</small>
+                  </p>
+                  <!-- End of card updated text -->
+                  <!-- Card content button -->
+                  <p>
+                    <a
+                      class="btn card-btn float-right theme-btn2"
+                      href="https://gatech.instructure.com/courses/218372/modules/items/1598644"
+                      role="button"
+                      >View Content</a
+                    >
+                  </p>
+                  <!-- End of card content button -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End of card-->
+
+          <!-- Start of card-->
+          <div class="card image-card mb-3 mx-auto">
+            <div class="row no-gutters">
+              <div class="col-md-5 card-col">
+                <!-- Card image-->
+                <img
+                  class="card-img"
+                  src="../images/Places/201803-S7II-San Francisco_0449.JPG"
+                  alt="Bridges"
+                />
+                <!-- End of card image-->
+              </div>
+              <div class="col-md-7">
+                <div class="card-body">
+                  <!-- Card header -->
+                  <h4 class="card-title">Building bridges</h4>
+                  <!-- End of card header -->
+                  <!-- Card text -->
+                  <p class="card-text">
+                    In this section you may take a look at different
+                    <b><u>components</u></b>
+                    and structures you may use to build up your course and give
+                    students an amazing experience.
+                  </p>
+                  <!-- End of card text -->
+                  <!-- Card updated text -->
+                  <p class="card-update">
+                    <small>Last updated 3 mins ago</small>
+                  </p>
+                  <!-- End of card updated text -->
+                  <!-- Card content button -->
+                  <p>
+                    <a
+                      class="btn card-btn float-right theme-btn2"
+                      href="https://gatech.instructure.com/courses/218372/modules/items/1598642"
+                      role="button"
+                      >View Content</a
+                    >
+                  </p>
+                  <!-- End of card content button -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End of card-->
+
+          <!-- Start of card-->
+          <div class="card image-card mb-3 mx-auto">
+            <div class="row no-gutters">
+              <div class="col-md-5 order-md-2 card-col">
+                <!-- Card image-->
+                <img
+                  class="card-img"
+                  src="../images/Places/201611-S7II-Carcassonne_0150.JPG"
+                  alt="Looking back"
+                />
+                <!-- End of card image-->
+              </div>
+              <div class="col-md-7 order-md-1">
+                <div class="card-body">
+                  <!-- Card header -->
+                  <h4 class="card-title">Looking back at the journey</h4>
+                  <!-- End of card header -->
+                  <!-- Card text -->
+                  <p class="card-text">
+                    In this last section you may check the available
+                    <b><u>documentation</u></b> regarding how the template is
+                    structured, how to view and edit the html files composing it
+                    and some other key elements that may help you through
+                    customizing your content.
+                  </p>
+                  <!-- End of card text -->
+                  <!-- Card updated text -->
+                  <p class="card-update">
+                    <small>Last updated 3 mins ago</small>
+                  </p>
+                  <!-- End of card updated text -->
+                  <!-- Card content button -->
+                  <p>
+                    <a
+                      class="btn card-btn float-right theme-btn2"
+                      href="https://gatech.instructure.com/courses/218372/modules/items/1614868"
+                      role="button"
+                      >View Content</a
+                    >
+                  </p>
+                  <!-- End of card content button -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End of card-->
+        </div>
+        <!-- End of option content -->
+
+        <!-- Option content -->
+        <div
+          class="tab-pane fade mx-auto description justify-content-center"
+          id="team"
+          role="tabpanel"
+          aria-labelledby="team-tab"
+        >
+          <!-- Team section header -->
+          <h1 class="cover-heading">
+            With a great course comes a great responsibility
+          </h1>
+          <!-- End of team section header -->
+          <!-- Team section text -->
+          <p class="lead">
+            This is the team that has made this course possible:
+          </p>
+          <!-- End of team section text -->
+          <!-- Row -->
+          <div class="row people-row">
+            <!-- Team member -->
+            <div class="col-sm-4">
+              <img
+                src="../images/Random Faces/face1.jpeg"
+                class="mx-auto d-block team-picture rounded-circle img-thumbnail"
+              />
+              <h3 class="person-name">James M.</h3>
+              <p><i>Instructor</i></p>
+              <p>
+                <a
+                  class="btn theme-btn2"
+                  href="#persons-profile-url"
+                  role="button"
+                  >View details »</a
+                >
+              </p>
+            </div>
+            <!-- End of team member -->
+            <!-- Team member -->
+            <div class="col-sm-4">
+              <img
+                src="../images/Random Faces/face2.jpeg"
+                class="mx-auto d-block team-picture rounded-circle img-thumbnail"
+              />
+              <h3 class="person-name">Amy B.</h3>
+              <p><i>Creator</i></p>
+              <p>
+                <a
+                  class="btn theme-btn2"
+                  href="#persons-profile-url"
+                  role="button"
+                  >View details »</a
+                >
+              </p>
+            </div>
+            <!-- End of team member -->
+            <!-- Team member -->
+            <div class="col-sm-4">
+              <img
+                src="../images/Random Faces/face3.jpeg"
+                class="mx-auto d-block team-picture rounded-circle img-thumbnail"
+              />
+              <h3 class="person-name">Andrew H.</h3>
+              <p><i>Head Teaching Assistant</i></p>
+              <p>
+                <a
+                  class="btn theme-btn2"
+                  href="#persons-profile-url"
+                  role="button"
+                  >View details »</a
+                >
+              </p>
+            </div>
+            <!-- End of team member -->
+          </div>
+          <!-- End of row -->
+
+          <!-- Row -->
+          <div class="row people-row">
+            <!-- Team member -->
+            <div class="col-sm-4">
+              <img
+                src="../images/Random Faces/face4.jpeg"
+                class="mx-auto d-block team-picture rounded-circle img-thumbnail"
+              />
+              <h3 class="person-name">Georgia M.</h3>
+              <p><i>Teaching Assistant</i></p>
+              <p>
+                <a
+                  class="btn theme-btn2"
+                  href="#persons-profile-url"
+                  role="button"
+                  >View details »</a
+                >
+              </p>
+            </div>
+            <!-- End of team member -->
+            <!-- Team member -->
+            <div class="col-sm-4">
+              <img
+                src="../images/Random Faces/face5.jpeg"
+                class="mx-auto d-block team-picture rounded-circle img-thumbnail"
+              />
+              <h3 class="person-name">Andy W.</h3>
+              <p><i>Teaching Assistant</i></p>
+              <p>
+                <a
+                  class="btn theme-btn2"
+                  href="#persons-profile-url"
+                  role="button"
+                  >View details »</a
+                >
+              </p>
+            </div>
+            <!-- End of team member -->
+            <!-- Team member -->
+            <div class="col-sm-4">
+              <img
+                src="../images/Random Faces/face6.jpeg"
+                class="mx-auto d-block team-picture rounded-circle img-thumbnail"
+              />
+              <h3 class="person-name">Tina S.</h3>
+              <p><i>Teaching Assistant</i></p>
+              <p>
+                <a
+                  class="btn theme-btn2"
+                  href="#persons-profile-url"
+                  role="button"
+                  >View details »</a
+                >
+              </p>
+            </div>
+            <!-- End of team member -->
+          </div>
+          <!-- End of row -->
+        </div>
+        <!-- End of option content -->
+
+        <div
+          class="tab-pane fade show mx-auto faqs justify-content-center"
+          id="faqs"
+          role="tabpanel"
+          aria-labelledby="description-tab"
+        >
+          <div class="accordion" id="accordionExample">
+            <!-- Question Block-->
+            <div class="card faq-card">
+              <div class="card-header faq-header" id="headingOne">
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-link btn-link-theme btn-block text-left"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    · <b>Q1.</b> Do I need to know how to program to use this
+                    template?
+                  </button>
+                </h2>
+              </div>
+
+              <div
+                id="collapseOne"
+                class="collapse show faq-body"
+                aria-labelledby="headingOne"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body text-left ml-4">
+                  Not at all. All you need to know is how to open some files and
+                  edit the text in them. You can check out the documentation to
+                  better understand how to move around the template.
+                </div>
+              </div>
+            </div>
+            <!-- End of Question Block -->
+
+            <!-- Question Block-->
+            <div class="card faq-card">
+              <div class="card-header faq-header" id="headingTwo">
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-link btn-link-theme btn-block text-left collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    · <b>Q2.</b> Can I apply different colors for each different
+                    page template?
+                  </button>
+                </h2>
+              </div>
+              <div
+                id="collapseTwo"
+                class="collapse faq-body"
+                aria-labelledby="headingTwo"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body text-left ml-4">
+                  Aboslutely. Take a look at the documentation and there you
+                  will see how to quickly apply different coloring to your
+                  pages.
+                </div>
+              </div>
+            </div>
+            <!-- End of Question Block -->
+
+            <!-- Question Block-->
+            <div class="card faq-card">
+              <div class="card-header faq-header" id="headingThree">
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-link btn-link-theme btn-block text-left collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    · <b>Q3.</b> Does it take a lot of time to use this theme?
+                  </button>
+                </h2>
+              </div>
+              <div
+                id="collapseThree"
+                class="collapse faq-body"
+                aria-labelledby="headingThree"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body text-left ml-4">
+                  More or less the same amount of time as any other Canvas
+                  Theme. All you have to do is import it into your online course
+                  and then you can just customize it to fit your needs. If
+                  you're not sure on how to do this, take a look at the the
+                  <a
+                    href="https://gatech.instructure.com/courses/218372/modules/items/1614868"
+                    >documentation section</a
+                  >.
+                </div>
+              </div>
+            </div>
+            <!-- End of Question Block -->
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer content -->
+    <footer class="footer mt-auto">
+      <div>
+        <p>
+          Template created for the
+          <a href="https://openeducation.gatech.edu/"
+            >BOLD Fellowship @Georgia Tech</a
+          >
+          with
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="24px"
+            viewBox="0 0 24 24"
+            width="24px"
+            fill="red"
+          >
+            <path d="M0 0h24v24H0V0z" fill="none" />
+            <path
+              d="M13.35 20.13c-.76.69-1.93.69-2.69-.01l-.11-.1C5.3 15.27 1.87 12.16 2 8.28c.06-1.7.93-3.33 2.34-4.29 2.64-1.8 5.9-.96 7.66 1.1 1.76-2.06 5.02-2.91 7.66-1.1 1.41.96 2.28 2.59 2.34 4.29.14 3.88-3.3 6.99-8.55 11.76l-.1.09z"
+            />
+          </svg>
+          by
+          <a href="https://www.linkedin.com/in/victorcfernandez/">Víctor C.</a>
+        </p>
+      </div>
+    </footer>
+    <!-- End of footer content -->
+
+    <!-- Components for Bootstrap JavaScript -->
+  </body>
+  <script
+    src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+    integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+    crossorigin="anonymous"
+  ></script>
+</html>
