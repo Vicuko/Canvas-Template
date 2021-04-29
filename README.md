@@ -21,3 +21,6 @@ The template is composed of the following elements:
   4. Components page with different elements available to be used within the course.
 
   5. Documentation. All the relevant information on how the template works and how to customize it to your own needs.
+
+THere are 3 themes available, each of them with a different color combination.
+The different html files containing each of the sections in the course are distributed within each theme accordingly.
