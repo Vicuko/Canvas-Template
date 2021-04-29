@@ -22,5 +22,7 @@ The template is composed of the following elements:
 
   5. Documentation. All the relevant information on how the template works and how to customize it to your own needs.
 
-THere are 3 themes available, each of them with a different color combination.
+There are 3 themes available, each of them with a different color combination.
 The different html files containing each of the sections in the course are distributed within each theme accordingly.
+
+The file with the .imscc extension includes an export of the Canvas course which can be directly uploaded to any environment that supports uploading Canvas course files.
